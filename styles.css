@@ -12,6 +12,7 @@ body {
 .footer,
 header {
     background-color: #1f2937;
+    padding: 48px;
 }
 
 .logo {
@@ -45,6 +46,20 @@ h1 {
 
 .contentTwo {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.contentTwo blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.contentTwo p {
+    align-self: flex-end;
 }
 
 .footer {
