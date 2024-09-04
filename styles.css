@@ -4,8 +4,16 @@
     padding: 0;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .navbar,
@@ -82,6 +90,11 @@ h1 {
     align-self: flex-end;
     font-size: 15px;
     font-weight: bold;
+}
+
+.signCont {
+    background-color: #3882F6;
+    display: flex;
 }
 
 .footer {
