@@ -4,6 +4,36 @@
     padding: 0;
 }
 
-.navbar {
+.navbar,
+.footer {
     background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
 }
