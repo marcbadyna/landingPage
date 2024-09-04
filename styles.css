@@ -76,7 +76,7 @@ h1 {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 48px;
+    padding: 64px;
 }
 
 .contentTwo blockquote {
@@ -93,7 +93,7 @@ h1 {
 }
 
 .contentThree {
-    padding: 80px;
+    padding: 64px;
 }
 
 .signCont {
@@ -120,6 +120,8 @@ h1 {
 }
 
 .footer {
+    font-size: small;
     text-align: center;
     color: #E5E7EB;
+    padding: 16px;
 }
