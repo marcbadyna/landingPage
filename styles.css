@@ -91,6 +91,7 @@ h1 {
 .contentOne .boxes {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .cont {
