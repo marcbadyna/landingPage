@@ -4,8 +4,13 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar,
-.footer {
+.footer,
+header {
     background-color: #1f2937;
 }
 
@@ -31,6 +36,15 @@ a {
 
 .nav {
     display: flex;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.contentTwo {
+    background-color: #E5E7EB;
 }
 
 .footer {
