@@ -39,9 +39,29 @@ a {
     display: flex;
 }
 
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
 h1 {
     font-size: 48px;
     color: #F9FAF8;
+}
+
+.container p {
+    color: #E5E7EB;
+}
+
+.container .btn {
+    background-color: #3882F6;
+    color: white;
+    height: 25px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 5px;
 }
 
 .contentTwo {
@@ -60,6 +80,8 @@ h1 {
 
 .contentTwo p {
     align-self: flex-end;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .footer {
