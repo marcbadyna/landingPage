@@ -76,6 +76,10 @@ h1 {
     margin-top: 5px;
 }
 
+.container img {
+    border-radius: 5px;
+}
+
 .contentOne {
     display: flex;
     flex-direction: column;
